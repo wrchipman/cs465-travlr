@@ -13,7 +13,8 @@
     "http-errors": "~1.6.3",
     "mongoose": "~5.9.2",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "hbs": "^4.2.0",
