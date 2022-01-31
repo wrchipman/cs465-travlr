@@ -3,13 +3,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Dive Sites - Bhaccasyoniztas Beach Resort Website Template</title>
+	<title>{{title}}</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 	<div id="background">
 		<div id="page">
-			{{> header }}
+			{{> header}}
 			<div id="contents">
 				<div class="box">
 					<div>
@@ -23,13 +23,14 @@
 									{{{this.description}}}
 								</li>
 								{{/each}}
+								
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		{{> footer }}
+		{{> footer}}
 	</div>
 </body>
 </html>
