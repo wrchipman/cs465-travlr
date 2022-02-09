@@ -1,3 +1,3 @@
 export class AuthResponse {
-  token: string;
+    token: string
 }
