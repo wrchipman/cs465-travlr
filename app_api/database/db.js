@@ -71,3 +71,4 @@ connect();
 
 // bring in schema
 require("./models/travlr");
+require("./models/user");
